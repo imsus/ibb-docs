@@ -1,0 +1,11 @@
+{
+  "name": "ibb-docs",
+  "version": "1.0.0",
+  "main": "readme.md",
+  "author": "Imam Susanto",
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it-decorate": "^1.2.1",
+    "markdown-it-emoji": "^1.3.0"
+  }
+}

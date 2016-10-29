@@ -1,0 +1,17 @@
+{
+  "css": [
+    "https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700",
+    "https://unpkg.com/tachyons@4.5.4",
+    "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css",
+    "docs/custom.css"
+  ],
+  "scripts": [
+    "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/go.min.js"
+  ],
+  "markdown": {
+    "plugins": {
+      "decorate": {},
+      "emoji": {}
+    }
+  }
+}

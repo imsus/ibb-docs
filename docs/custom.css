@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures, contextual;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "alt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+.toggle.menu-toggle.js-menu-toggle {
+  display: none;
+}
+
+.menu.toc-menu {
+  background-color: #F4F4F4;
+}
+
+.toggle.menu-toggle {
+  background-color: transparent;
+}
+
+.toc-menu .link.-active, .toc-menu .hlink.-active {
+  box-shadow: inset -2px 0 #E7040F;
+}
+
+.toc-menu .link:hover, .toc-menu .hlink:hover {
+  background-color: rgba(255,114,92,.02);
+}
+
+#nprogress .bar {
+  background: rgb(255,114,92);
+}
+
+#nprogress .spinner-icon {
+  border-top-color: rgb(255,114,92);
+  border-left-color: rgb(255,114,92);
+}
+
+.footer-nav .left a:hover:before, .footer-nav .right a:hover:after {
+  color: #e7040f;
+}
+
+.footer-nav a:hover .title {
+  color: #e7040f;
+}
