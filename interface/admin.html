@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/style.css?t=d358ee59">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.4">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link rel="stylesheet" href="../custom.css?t=e9bc9889">
+    <script src="../assets/script.js?t=42463e55"></script>
+    <title>Admin - IBB Guide</title>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="menu toc-menu">
+        <li class="menu-item -level-0 -parent">
+          <ul class="submenu">
+            <li class="menu-item -level-1"><a class="link title  link-index" href="../index.html">IBB Guide</a>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Tour Interface</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a class="link title  link-interfacefrontend" href="../interface/frontend.html">Frontend</a>
+                </li>
+                <li class="menu-item -level-2"><a class="link title -active link-interfaceadmin" href="../interface/admin.html">Admin</a>
+                  <ul class="headings heading-list">
+                    <li class="heading-item -depth-2"><a class="hlink link-login" href="#login">Login</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-page" href="#page">Page</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-collections" href="#collections">Collections</a>
+                      <ul class="heading-list -depth-2">
+                        <li class="heading-item -depth-3"><a class="hlink link-blog" href="#blog">Blog</a>
+                        </li>
+                        <li class="heading-item -depth-3"><a class="hlink link-resources" href="#resources">Resources</a>
+                        </li>
+                        <li class="heading-item -depth-3"><a class="hlink link-review" href="#review">Review</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-taxonomy" href="#taxonomy">Taxonomy</a>
+                      <ul class="heading-list -depth-2">
+                        <li class="heading-item -depth-3"><a class="hlink link-kategori" href="#kategori">Kategori</a>
+                        </li>
+                        <li class="heading-item -depth-3"><a class="hlink link-series" href="#series">Series</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-globals" href="#globals">Globals</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-users" href="#users">Users</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Fitur Website</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><span class="title">Membership</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Blog/News</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Review</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Resource</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Featured Blogger</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Sponsor Logo</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Blogger Feed</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Halaman Statis</span>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1"><span class="title">Guide v1.0.0</span>
+            </li>
+          </ul>
+        </li>
+      </div>
+      <div class="body page-interfaceadmin">
+        <div class="header-nav">
+          <div class="right">
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id="admin-interface">Admin Interface</h1>
+<p>Berikut adalah beberapa interface admin Website.</p>
+<div class="pv4"></div>
+<h2 id="login">Login</h2>
+<p><code>https://indonesianbeautyblogger.com/cp</code>
+<code>https://indonesianbeautyblogger.com/cp/auth/login</code></p>
+<p>Sama dengan interface login biasa, namun kadang muncul juga interface dari cms seperti berikut. Hanya user dengan <strong>Admin Permission</strong> yang bisa masuk ke CMS.</p>
+<p><img src="../assets/images/admin-login.jpg" alt="Interface Login"></p>
+<div class="pv4"></div>
+<h2 id="page">Page</h2>
+<p>Ini mengatur semua halaman statis website. Yaitu halaman yang tidak ada unsur kategori/series/waktu.</p>
+<p><img src="../assets/images/admin-pages.jpg" alt="Interface Page"></p>
+<div class="pv4"></div>
+<h2 id="collections">Collections</h2>
+<p>Beda dengan Page. Ini merupakan tipe postingan yang dipengaruhi oleh kategori/series/waktu.</p>
+<p><img src="../assets/images/admin-collections.jpg" alt="Interface Collections"></p>
+<p>Ada 3 Jenis Collections di website ini, yaitu:</p>
+<ol>
+<li>Blog</li>
+<li>Resources</li>
+<li>Review</li>
+</ol>
+<div class="pv3"></div>
+<h3 id="blog">Blog</h3>
+<p>Blog berisi konten updates dengan kategori yang telah dibuat di taxonomy.</p>
+<p><img src="../assets/images/admin-collections-blog.jpg" alt="Interface Collections"></p>
+<div class="pv3"></div>
+<h3 id="resources">Resources</h3>
+<p>Resources adalah blogging guide. Namun isinya hanyalah link yang menuju ke website lain. Jika ingin diarahkan ke website sendiri, buat blogpost yang nanti menjadi tujuan resource ini.</p>
+<p><img src="../assets/images/admin-collections-resources.jpg" alt="Interface Collections"></p>
+<div class="pv3"></div>
+<h3 id="review">Review</h3>
+<p>Sama seperti blog. Namun ada penambahan informasi produk dan rating produk.</p>
+<p><img src="../assets/images/admin-collections-review.jpg" alt="Interface Collections"></p>
+<div class="pv4"></div>
+<h2 id="taxonomy">Taxonomy</h2>
+<p>Taxonomy adalah dasar dari pengelompokan konten di website ini.</p>
+<p><img src="../assets/images/admin-taxonomies.jpg" alt="Interface Taxonomy"></p>
+<p>Terdapat 2 jenis taxonomy yaitu:</p>
+<ol>
+<li><strong>Kategori</strong></li>
+<li><strong>Series</strong></li>
+</ol>
+<div class="pv3"></div>
+<h3 id="kategori">Kategori</h3>
+<p>Postingan blog akan dikategorikan berdasarkan item yang telah dibuat di kategori ini.</p>
+<p><img src="../assets/images/admin-taxonomies-categories.jpg" alt="Interface Collections"></p>
+<div class="pv3"></div>
+<h3 id="series">Series</h3>
+<p>Series diperuntukkan buat resource. Agar link yang sudah dibuat tersusun rapi.</p>
+<p><img src="../assets/images/admin-taxonomies-series.jpg" alt="Interface Collections"></p>
+<div class="pv4"></div>
+<h2 id="globals">Globals</h2>
+<p>Globals berisi nilai yang mengatur keseluruhan fungsional website.</p>
+<p><img src="../assets/images/admin-globals.jpg" alt="Interface Globals"></p>
+<div class="pv4"></div>
+<h2 id="users">Users</h2>
+<p>Berisi user yang telah terdaftar di website.</p>
+<p><img src="../assets/images/admin-users.jpg" alt="Interface Users"></p>
+<div class="pv4"></div>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="../interface/frontend.html"><span class="title">Frontend</span></a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

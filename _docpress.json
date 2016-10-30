@@ -32,14 +32,34 @@
                 "id": "member-page"
               },
               {
+                "title": "Member Single Page",
+                "depth": 2,
+                "id": "member-single-page"
+              },
+              {
                 "title": "Blog List Page",
                 "depth": 2,
                 "id": "blog-list-page"
               },
               {
-                "title": "Resource Page",
+                "title": "Blog Single Page",
                 "depth": 2,
-                "id": "resource-page"
+                "id": "blog-single-page"
+              },
+              {
+                "title": "Review Single Page",
+                "depth": 2,
+                "id": "review-single-page"
+              },
+              {
+                "title": "Resource List Page",
+                "depth": 2,
+                "id": "resource-list-page"
+              },
+              {
+                "title": "Series Page",
+                "depth": 2,
+                "id": "series-page"
               },
               {
                 "title": "Static Page",
@@ -64,10 +84,71 @@
             ]
           },
           {
-            "title": "Admin"
-          },
-          {
-            "title": "Email"
+            "title": "Admin",
+            "source": "docs/interface/admin.md",
+            "url": "interface/admin.html",
+            "slug": "interfaceadmin",
+            "headings": [
+              {
+                "title": "Login",
+                "depth": 2,
+                "id": "login"
+              },
+              {
+                "title": "Page",
+                "depth": 2,
+                "id": "page"
+              },
+              {
+                "title": "Collections",
+                "depth": 2,
+                "id": "collections",
+                "headings": [
+                  {
+                    "title": "Blog",
+                    "depth": 3,
+                    "id": "blog"
+                  },
+                  {
+                    "title": "Resources",
+                    "depth": 3,
+                    "id": "resources"
+                  },
+                  {
+                    "title": "Review",
+                    "depth": 3,
+                    "id": "review"
+                  }
+                ]
+              },
+              {
+                "title": "Taxonomy",
+                "depth": 2,
+                "id": "taxonomy",
+                "headings": [
+                  {
+                    "title": "Kategori",
+                    "depth": 3,
+                    "id": "kategori"
+                  },
+                  {
+                    "title": "Series",
+                    "depth": 3,
+                    "id": "series"
+                  }
+                ]
+              },
+              {
+                "title": "Globals",
+                "depth": 2,
+                "id": "globals"
+              },
+              {
+                "title": "Users",
+                "depth": 2,
+                "id": "users"
+              }
+            ]
           }
         ]
       },
@@ -75,10 +156,7 @@
         "title": "Fitur Website",
         "sections": [
           {
-            "title": "Pendaftaran Member"
-          },
-          {
-            "title": "Profil Member"
+            "title": "Membership"
           },
           {
             "title": "Blog/News"
@@ -87,7 +165,7 @@
             "title": "Review"
           },
           {
-            "title": "Guide Links"
+            "title": "Resource"
           },
           {
             "title": "Featured Blogger"
@@ -100,48 +178,6 @@
           },
           {
             "title": "Halaman Statis"
-          }
-        ]
-      },
-      {
-        "title": "Content",
-        "sections": [
-          {
-            "title": "Blog/News"
-          },
-          {
-            "title": "Guide/Resource"
-          },
-          {
-            "title": "Review"
-          }
-        ]
-      },
-      {
-        "title": "Taxonomy",
-        "sections": [
-          {
-            "title": "Kategori"
-          },
-          {
-            "title": "Series"
-          }
-        ]
-      },
-      {
-        "title": "Members",
-        "sections": [
-          {
-            "title": "Registrasi"
-          },
-          {
-            "title": "Login"
-          },
-          {
-            "title": "Lupa Password"
-          },
-          {
-            "title": "Edit Profil"
           }
         ]
       },
@@ -179,14 +215,34 @@
           "id": "member-page"
         },
         {
+          "title": "Member Single Page",
+          "depth": 2,
+          "id": "member-single-page"
+        },
+        {
           "title": "Blog List Page",
           "depth": 2,
           "id": "blog-list-page"
         },
         {
-          "title": "Resource Page",
+          "title": "Blog Single Page",
           "depth": 2,
-          "id": "resource-page"
+          "id": "blog-single-page"
+        },
+        {
+          "title": "Review Single Page",
+          "depth": 2,
+          "id": "review-single-page"
+        },
+        {
+          "title": "Resource List Page",
+          "depth": 2,
+          "id": "resource-list-page"
+        },
+        {
+          "title": "Series Page",
+          "depth": 2,
+          "id": "series-page"
         },
         {
           "title": "Static Page",
@@ -209,22 +265,104 @@
           "id": "lupa-password"
         }
       ]
+    },
+    "interface/admin.html": {
+      "source": "docs/interface/admin.md",
+      "title": "Admin - IBB Guide",
+      "pageTitle": "Admin",
+      "slug": "interfaceadmin",
+      "headings": [
+        {
+          "title": "Login",
+          "depth": 2,
+          "id": "login"
+        },
+        {
+          "title": "Page",
+          "depth": 2,
+          "id": "page"
+        },
+        {
+          "title": "Collections",
+          "depth": 2,
+          "id": "collections",
+          "headings": [
+            {
+              "title": "Blog",
+              "depth": 3,
+              "id": "blog"
+            },
+            {
+              "title": "Resources",
+              "depth": 3,
+              "id": "resources"
+            },
+            {
+              "title": "Review",
+              "depth": 3,
+              "id": "review"
+            }
+          ]
+        },
+        {
+          "title": "Taxonomy",
+          "depth": 2,
+          "id": "taxonomy",
+          "headings": [
+            {
+              "title": "Kategori",
+              "depth": 3,
+              "id": "kategori"
+            },
+            {
+              "title": "Series",
+              "depth": 3,
+              "id": "series"
+            }
+          ]
+        },
+        {
+          "title": "Globals",
+          "depth": 2,
+          "id": "globals"
+        },
+        {
+          "title": "Users",
+          "depth": 2,
+          "id": "users"
+        }
+      ]
     }
   },
   "sources": {
     "README.md": "index.html",
     "docs/interface/frontend.md": "interface/frontend.html",
+    "docs/interface/admin.md": "interface/admin.html",
     "docs/custom.css": "custom.css",
+    "docs/assets/images/admin-assets.jpg": "assets/images/admin-assets.jpg",
+    "docs/assets/images/admin-collections-blog.jpg": "assets/images/admin-collections-blog.jpg",
+    "docs/assets/images/admin-collections-resources.jpg": "assets/images/admin-collections-resources.jpg",
+    "docs/assets/images/admin-collections-review.jpg": "assets/images/admin-collections-review.jpg",
+    "docs/assets/images/admin-collections.jpg": "assets/images/admin-collections.jpg",
+    "docs/assets/images/admin-globals.jpg": "assets/images/admin-globals.jpg",
+    "docs/assets/images/admin-login.jpg": "assets/images/admin-login.jpg",
+    "docs/assets/images/admin-pages.jpg": "assets/images/admin-pages.jpg",
+    "docs/assets/images/admin-taxonomies-categories.jpg": "assets/images/admin-taxonomies-categories.jpg",
+    "docs/assets/images/admin-taxonomies-series.jpg": "assets/images/admin-taxonomies-series.jpg",
+    "docs/assets/images/admin-taxonomies.jpg": "assets/images/admin-taxonomies.jpg",
     "docs/assets/images/blog-list.jpg": "assets/images/blog-list.jpg",
-    "docs/assets/images/blog-single.png": "assets/images/blog-single.png",
-    "docs/assets/images/homepage.jpg": "assets/images/homepage.jpg",
-    "docs/assets/images/member-single.png": "assets/images/member-single.png",
+    "docs/assets/images/admin-users.jpg": "assets/images/admin-users.jpg",
+    "docs/assets/images/blog-single.jpg": "assets/images/blog-single.jpg",
     "docs/assets/images/feed.jpg": "assets/images/feed.jpg",
+    "docs/assets/images/forget.jpg": "assets/images/forget.jpg",
+    "docs/assets/images/login.jpg": "assets/images/login.jpg",
+    "docs/assets/images/homepage.jpg": "assets/images/homepage.jpg",
+    "docs/assets/images/member-single.jpg": "assets/images/member-single.jpg",
     "docs/assets/images/member.jpg": "assets/images/member.jpg",
-    "docs/assets/images/resource-list.png": "assets/images/resource-list.png",
+    "docs/assets/images/register.jpg": "assets/images/register.jpg",
+    "docs/assets/images/resource-list.jpg": "assets/images/resource-list.jpg",
     "docs/assets/images/review-single.jpg": "assets/images/review-single.jpg",
-    "docs/assets/images/review-single.png": "assets/images/review-single.png",
-    "docs/assets/images/series-list.png": "assets/images/series-list.png",
-    "docs/assets/images/user-account.png": "assets/images/user-account.png"
+    "docs/assets/images/series-list.jpg": "assets/images/series-list.jpg",
+    "docs/assets/images/static-page.jpg": "assets/images/static-page.jpg"
   }
 }

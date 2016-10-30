@@ -29,9 +29,17 @@
                     </li>
                     <li class="heading-item -depth-2"><a class="hlink link-member-page" href="#member-page">Member Page</a>
                     </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-member-single-page" href="#member-single-page">Member Single Page</a>
+                    </li>
                     <li class="heading-item -depth-2"><a class="hlink link-blog-list-page" href="#blog-list-page">Blog List Page</a>
                     </li>
-                    <li class="heading-item -depth-2"><a class="hlink link-resource-page" href="#resource-page">Resource Page</a>
+                    <li class="heading-item -depth-2"><a class="hlink link-blog-single-page" href="#blog-single-page">Blog Single Page</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-review-single-page" href="#review-single-page">Review Single Page</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-resource-list-page" href="#resource-list-page">Resource List Page</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-series-page" href="#series-page">Series Page</a>
                     </li>
                     <li class="heading-item -depth-2"><a class="hlink link-static-page" href="#static-page">Static Page</a>
                     </li>
@@ -43,23 +51,19 @@
                     </li>
                   </ul>
                 </li>
-                <li class="menu-item -level-2"><span class="title">Admin</span>
-                </li>
-                <li class="menu-item -level-2"><span class="title">Email</span>
+                <li class="menu-item -level-2"><a class="link title  link-interfaceadmin" href="../interface/admin.html">Admin</a>
                 </li>
               </ul>
             </li>
             <li class="menu-item -level-1 -parent"><span class="title">Fitur Website</span>
               <ul class="submenu">
-                <li class="menu-item -level-2"><span class="title">Pendaftaran Member</span>
-                </li>
-                <li class="menu-item -level-2"><span class="title">Profil Member</span>
+                <li class="menu-item -level-2"><span class="title">Membership</span>
                 </li>
                 <li class="menu-item -level-2"><span class="title">Blog/News</span>
                 </li>
                 <li class="menu-item -level-2"><span class="title">Review</span>
                 </li>
-                <li class="menu-item -level-2"><span class="title">Guide Links</span>
+                <li class="menu-item -level-2"><span class="title">Resource</span>
                 </li>
                 <li class="menu-item -level-2"><span class="title">Featured Blogger</span>
                 </li>
@@ -68,36 +72,6 @@
                 <li class="menu-item -level-2"><span class="title">Blogger Feed</span>
                 </li>
                 <li class="menu-item -level-2"><span class="title">Halaman Statis</span>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item -level-1 -parent"><span class="title">Content</span>
-              <ul class="submenu">
-                <li class="menu-item -level-2"><span class="title">Blog/News</span>
-                </li>
-                <li class="menu-item -level-2"><span class="title">Guide/Resource</span>
-                </li>
-                <li class="menu-item -level-2"><span class="title">Review</span>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item -level-1 -parent"><span class="title">Taxonomy</span>
-              <ul class="submenu">
-                <li class="menu-item -level-2"><span class="title">Kategori</span>
-                </li>
-                <li class="menu-item -level-2"><span class="title">Series</span>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item -level-1 -parent"><span class="title">Members</span>
-              <ul class="submenu">
-                <li class="menu-item -level-2"><span class="title">Registrasi</span>
-                </li>
-                <li class="menu-item -level-2"><span class="title">Login</span>
-                </li>
-                <li class="menu-item -level-2"><span class="title">Lupa Password</span>
-                </li>
-                <li class="menu-item -level-2"><span class="title">Edit Profil</span>
                 </li>
               </ul>
             </li>
@@ -123,10 +97,9 @@ yang bisa dikontrol di bagian Admin.</p>
 halaman <a href="#member-single">Profil Member</a></li>
 <li><strong>Featured Sponsors</strong>, logo akan muncul jika ada gambar dipilih di settingan
 <code>Global &gt; Website &gt; Featured Sponsors</code></li>
-<li><strong>Link Social Media</strong>, ini akan muncul di setiap halaman. Diatur di settingan
-<code>Global &gt; Website</code></li>
+<li><strong>Link Social Media</strong>, ini akan muncul di setiap halaman. Diatur di settingan <code>Global &gt; Website</code></li>
 </ol>
-<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+<p><img src="../assets/images/homepage.jpg" alt="Interface Homepage"></p>
 <div class="pv4"></div>
 <h2 id="blogger-feed">Blogger Feed</h2>
 <p><code>https://indonesianbeautyblogger.com/feed</code></p>
@@ -137,18 +110,26 @@ service <a href="https://feedly.com">Feedly</a>.</p>
 <code>Global &gt; Website &gt; Feed Stream ID</code></li>
 <li><strong>Link Social Media</strong>, lihat <a href="#homepage">Homepage</a></li>
 </ol>
-<p><img src="../assets/images/feed.jpg" alt="Interface Frontend"></p>
+<p><img src="../assets/images/feed.jpg" alt="Interface Feed"></p>
 <div class="pv4"></div>
 <h2 id="member-page">Member Page</h2>
 <p><code>https://indonesianbeautyblogger.com/member</code></p>
 <p>Halaman ini akan melist semua member. Member dapat <strong>difilter</strong> based on
 location dan <strong>nama</strong>.</p>
 <ol>
-<li><strong>Nama dan Lokasi</strong> dikontrol dari user sendiri. User wajib mengisi nama lengkap
-di halaman registrasi</li>
+<li><strong>Nama dan Lokasi</strong> dikontrol dari user sendiri. User wajib mengisi nama lengkap di halaman registrasi</li>
 <li><strong>Link Social Media</strong>, lihat <a href="#homepage">Homepage</a></li>
 </ol>
-<p><img src="../assets/images/member.jpg" alt="Interface Frontend"></p>
+<p><img src="../assets/images/member.jpg" alt="Interface Member"></p>
+<div class="pv4"></div>
+<h2 id="member-single-page">Member Single Page</h2>
+<p><code>https://indonesianbeautyblogger.com/member/{id}</code></p>
+<p>Halaman ini merupakan detail dari user yang datanya berasal dari halaman update profile.</p>
+<ol>
+<li><strong>User Data</strong> Data berasal dari halaman update profil.</li>
+<li><strong>Blog Feed</strong> Masukkan link blog feed seperti <code>https://{anything}.blogspot.co.id/rss.xml</code></li>
+</ol>
+<p><img src="../assets/images/member-single.jpg" alt="Interface Member Single"></p>
 <div class="pv4"></div>
 <h2 id="blog-list-page">Blog List Page</h2>
 <p><code>https://indonesianbeautyblogger.com/blog</code> = Halaman 1
@@ -160,55 +141,79 @@ halaman, dan nanti akan muncul tombol next ketika data melebihi 15.</p>
 postingan dalam kategori tersebut.</li>
 <li><strong>Review Post</strong>, postingan khusus review di mana terdapat rating produk di
 bawah (max 5).</li>
-<li><strong>Postingan tanpa Featured Image</strong>, label berwarna merah adalah kategori post
-tersebut. Maksimal 1 kategori per post.</li>
+<li><strong>Postingan tanpa Featured Image</strong>, label berwarna merah adalah kategori post tersebut. Maksimal 1 kategori per post.</li>
 <li><strong>Postingan dengan Featured Image</strong></li>
+<li><strong>Link Social Media</strong>, lihat <a href="#homepage">Homepage</a></li>
 </ol>
-<p><img src="../assets/images/blog-list.jpg" alt="Interface Frontend"></p>
+<p><img src="../assets/images/blog-list.jpg" alt="Interface Blog List"></p>
 <div class="pv4"></div>
-<h2 id="resource-page">Resource Page</h2>
+<h2 id="blog-single-page">Blog Single Page</h2>
+<p><code>https://indonesianbeautyblogger.com/blog/{slug}</code></p>
+<p>Halaman artikel yang akan dibaca oleh pengunjung website.</p>
 <ol>
-<li>Featured Blogger</li>
-<li>Sponsored Area</li>
-<li>Link Social Media</li>
+<li><strong>Meta Data</strong>, diambil dari data <strong>Featured Image</strong>, <strong>Kategori</strong>, dan <strong>Author</strong></li>
+<li><strong>Judul &amp; Publish Date</strong>, diambil dari <strong>Title</strong> dan <strong>Publish Date</strong>.</li>
+<li><strong>Konten</strong></li>
+<li><strong>Komentar Disqus</strong>. Settingan disqus diambil dari <code>Global &gt; Website &gt; Disqus ID</code></li>
+<li><strong>Slot Ads</strong>, <em>Coming Soon</em></li>
+<li><strong>Link Social Media</strong>, lihat <a href="#homepage">Homepage</a></li>
 </ol>
-<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+<p><img src="../assets/images/blog-single.jpg" alt="Interface Blog Single"></p>
+<div class="pv4"></div>
+<h2 id="review-single-page">Review Single Page</h2>
+<p><code>https://indonesianbeautyblogger.com/review/{slug}</code></p>
+<p>Halaman review ada tambahan review produk di bagian bawah</p>
+<ol>
+<li><strong>Meta Data</strong>, diambil dari data <strong>Featured Image</strong>, <strong>Kategori</strong>, dan <strong>Author</strong></li>
+<li><strong>Judul &amp; Publish Date</strong>, diambil dari <strong>Title</strong> dan <strong>Publish Date</strong>.</li>
+<li><strong>Konten</strong></li>
+<li><strong>Produk Review</strong>. Data diambil dari <strong>Product Image</strong>, <strong>Product Name</strong>, <strong>Rating</strong>, dan <strong>Conclusion</strong></li>
+<li><strong>Slot Ads</strong>, <em>Coming Soon</em></li>
+<li><strong>Link Social Media</strong>, lihat <a href="#homepage">Homepage</a></li>
+</ol>
+<p><img src="../assets/images/review-single.jpg" alt="Interface Review Single"></p>
+<div class="pv4"></div>
+<h2 id="resource-list-page">Resource List Page</h2>
+<p><code>https://indonesianbeautyblogger.com/resource</code></p>
+<ol>
+<li><strong>Series</strong>, akan muncul jika <strong>series telah dibuat</strong> dan <strong>terdapat paling sedikit 1 resource dalam series tersebut</strong></li>
+<li><strong>Link Social Media</strong>, lihat <a href="#homepage">Homepage</a></li>
+</ol>
+<p><img src="../assets/images/resource-list.jpg" alt="Interface Resource List"></p>
+<div class="pv4"></div>
+<h2 id="series-page">Series Page</h2>
+<p><code>https://indonesianbeautyblogger.com/resource/{series}</code></p>
+<ol>
+<li><strong>Resource</strong>. Diambil dari collection resource. Data yang dibutuhkan adalah <strong>Featured Image</strong> dan <strong>Link</strong>. Selalu open in new tab.</li>
+<li><strong>Link Social Media</strong>, lihat <a href="#homepage">Homepage</a></li>
+</ol>
+<p><img src="../assets/images/series-list.jpg" alt="Interface Resource List"></p>
 <div class="pv4"></div>
 <h2 id="static-page">Static Page</h2>
+<p><code>https://indonesianbeautyblogger.com/about</code>
+<code>https://indonesianbeautyblogger.com/privacy</code>
+<code>https://indonesianbeautyblogger.com/terms</code></p>
 <ol>
-<li>Featured Blogger</li>
-<li>Sponsored Area</li>
-<li>Link Social Media</li>
+<li><strong>Konten</strong></li>
 </ol>
-<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+<p><img src="../assets/images/static-page.jpg" alt="Interface Static"></p>
 <div class="pv4"></div>
 <h2 id="login">Login</h2>
-<ol>
-<li>Featured Blogger</li>
-<li>Sponsored Area</li>
-<li>Link Social Media</li>
-</ol>
-<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+<p><code>https://indonesianbeautyblogger.com/login</code></p>
+<p><img src="../assets/images/login.jpg" alt="Interface Login"></p>
 <div class="pv4"></div>
 <h2 id="register">Register</h2>
-<ol>
-<li>Featured Blogger</li>
-<li>Sponsored Area</li>
-<li>Link Social Media</li>
-</ol>
-<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+<p><code>https://indonesianbeautyblogger.com/register</code></p>
+<p><img src="../assets/images/register.jpg" alt="Interface Register"></p>
 <div class="pv4"></div>
 <h2 id="lupa-password">Lupa Password</h2>
-<ol>
-<li>Featured Blogger</li>
-<li>Sponsored Area</li>
-<li>Link Social Media</li>
-</ol>
-<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+<p><code>https://indonesianbeautyblogger.com/forget-password</code></p>
+<p><img src="../assets/images/forget.jpg" alt="Interface Forget"></p>
 
         </div>
         <div class="footer-nav">
           <div class="left"><a href="../index.html"><span class="title">IBB Guide</span></a></div>
+          <div class="right"><a href="../interface/admin.html"><span class="label">Next: </span><span class="title">Admin</span></a></div>
         </div>
       </div>
     </div>
