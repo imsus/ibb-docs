@@ -1,0 +1,230 @@
+{
+  "toc": {
+    "sections": [
+      {
+        "title": "IBB Guide",
+        "source": "README.md",
+        "url": "index.html",
+        "slug": "index"
+      },
+      {
+        "title": "Tour Interface",
+        "sections": [
+          {
+            "title": "Frontend",
+            "source": "docs/interface/frontend.md",
+            "url": "interface/frontend.html",
+            "slug": "interfacefrontend",
+            "headings": [
+              {
+                "title": "Homepage",
+                "depth": 2,
+                "id": "homepage"
+              },
+              {
+                "title": "Blogger Feed",
+                "depth": 2,
+                "id": "blogger-feed"
+              },
+              {
+                "title": "Member Page",
+                "depth": 2,
+                "id": "member-page"
+              },
+              {
+                "title": "Blog List Page",
+                "depth": 2,
+                "id": "blog-list-page"
+              },
+              {
+                "title": "Resource Page",
+                "depth": 2,
+                "id": "resource-page"
+              },
+              {
+                "title": "Static Page",
+                "depth": 2,
+                "id": "static-page"
+              },
+              {
+                "title": "Login",
+                "depth": 2,
+                "id": "login"
+              },
+              {
+                "title": "Register",
+                "depth": 2,
+                "id": "register"
+              },
+              {
+                "title": "Lupa Password",
+                "depth": 2,
+                "id": "lupa-password"
+              }
+            ]
+          },
+          {
+            "title": "Admin"
+          },
+          {
+            "title": "Email"
+          }
+        ]
+      },
+      {
+        "title": "Fitur Website",
+        "sections": [
+          {
+            "title": "Pendaftaran Member"
+          },
+          {
+            "title": "Profil Member"
+          },
+          {
+            "title": "Blog/News"
+          },
+          {
+            "title": "Review"
+          },
+          {
+            "title": "Guide Links"
+          },
+          {
+            "title": "Featured Blogger"
+          },
+          {
+            "title": "Sponsor Logo"
+          },
+          {
+            "title": "Blogger Feed"
+          },
+          {
+            "title": "Halaman Statis"
+          }
+        ]
+      },
+      {
+        "title": "Content",
+        "sections": [
+          {
+            "title": "Blog/News"
+          },
+          {
+            "title": "Guide/Resource"
+          },
+          {
+            "title": "Review"
+          }
+        ]
+      },
+      {
+        "title": "Taxonomy",
+        "sections": [
+          {
+            "title": "Kategori"
+          },
+          {
+            "title": "Series"
+          }
+        ]
+      },
+      {
+        "title": "Members",
+        "sections": [
+          {
+            "title": "Registrasi"
+          },
+          {
+            "title": "Login"
+          },
+          {
+            "title": "Lupa Password"
+          },
+          {
+            "title": "Edit Profil"
+          }
+        ]
+      },
+      {
+        "title": "Guide v1.0.0"
+      }
+    ]
+  },
+  "index": {
+    "index.html": {
+      "source": "README.md",
+      "title": "IBB Guide",
+      "pageTitle": "IBB Guide",
+      "slug": "index"
+    },
+    "interface/frontend.html": {
+      "source": "docs/interface/frontend.md",
+      "title": "Frontend - IBB Guide",
+      "pageTitle": "Frontend",
+      "slug": "interfacefrontend",
+      "headings": [
+        {
+          "title": "Homepage",
+          "depth": 2,
+          "id": "homepage"
+        },
+        {
+          "title": "Blogger Feed",
+          "depth": 2,
+          "id": "blogger-feed"
+        },
+        {
+          "title": "Member Page",
+          "depth": 2,
+          "id": "member-page"
+        },
+        {
+          "title": "Blog List Page",
+          "depth": 2,
+          "id": "blog-list-page"
+        },
+        {
+          "title": "Resource Page",
+          "depth": 2,
+          "id": "resource-page"
+        },
+        {
+          "title": "Static Page",
+          "depth": 2,
+          "id": "static-page"
+        },
+        {
+          "title": "Login",
+          "depth": 2,
+          "id": "login"
+        },
+        {
+          "title": "Register",
+          "depth": 2,
+          "id": "register"
+        },
+        {
+          "title": "Lupa Password",
+          "depth": 2,
+          "id": "lupa-password"
+        }
+      ]
+    }
+  },
+  "sources": {
+    "README.md": "index.html",
+    "docs/interface/frontend.md": "interface/frontend.html",
+    "docs/custom.css": "custom.css",
+    "docs/assets/images/blog-list.jpg": "assets/images/blog-list.jpg",
+    "docs/assets/images/blog-single.png": "assets/images/blog-single.png",
+    "docs/assets/images/homepage.jpg": "assets/images/homepage.jpg",
+    "docs/assets/images/member-single.png": "assets/images/member-single.png",
+    "docs/assets/images/feed.jpg": "assets/images/feed.jpg",
+    "docs/assets/images/member.jpg": "assets/images/member.jpg",
+    "docs/assets/images/resource-list.png": "assets/images/resource-list.png",
+    "docs/assets/images/review-single.jpg": "assets/images/review-single.jpg",
+    "docs/assets/images/review-single.png": "assets/images/review-single.png",
+    "docs/assets/images/series-list.png": "assets/images/series-list.png",
+    "docs/assets/images/user-account.png": "assets/images/user-account.png"
+  }
+}

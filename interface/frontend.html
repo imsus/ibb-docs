@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/style.css?t=d358ee59">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.4">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+    <link rel="stylesheet" href="../custom.css?t=e9bc9889">
+    <script src="../assets/script.js?t=42463e55"></script>
+    <title>Frontend - IBB Guide</title>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="menu toc-menu">
+        <li class="menu-item -level-0 -parent">
+          <ul class="submenu">
+            <li class="menu-item -level-1"><a class="link title  link-index" href="../index.html">IBB Guide</a>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Tour Interface</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a class="link title -active link-interfacefrontend" href="../interface/frontend.html">Frontend</a>
+                  <ul class="headings heading-list">
+                    <li class="heading-item -depth-2"><a class="hlink link-homepage" href="#homepage">Homepage</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-blogger-feed" href="#blogger-feed">Blogger Feed</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-member-page" href="#member-page">Member Page</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-blog-list-page" href="#blog-list-page">Blog List Page</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-resource-page" href="#resource-page">Resource Page</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-static-page" href="#static-page">Static Page</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-login" href="#login">Login</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-register" href="#register">Register</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-lupa-password" href="#lupa-password">Lupa Password</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Admin</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Email</span>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Fitur Website</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><span class="title">Pendaftaran Member</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Profil Member</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Blog/News</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Review</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Guide Links</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Featured Blogger</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Sponsor Logo</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Blogger Feed</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Halaman Statis</span>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Content</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><span class="title">Blog/News</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Guide/Resource</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Review</span>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Taxonomy</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><span class="title">Kategori</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Series</span>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Members</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><span class="title">Registrasi</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Login</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Lupa Password</span>
+                </li>
+                <li class="menu-item -level-2"><span class="title">Edit Profil</span>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1"><span class="title">Guide v1.0.0</span>
+            </li>
+          </ul>
+        </li>
+      </div>
+      <div class="body page-interfacefrontend">
+        <div class="header-nav">
+          <div class="right">
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id="frontend-interface">Frontend Interface</h1>
+<p>Berikut adalah beberapa interface untuk frontend website. Yang dinomorin adalah
+yang bisa dikontrol di bagian Admin.</p>
+<div class="pv4"></div>
+<h2 id="homepage">Homepage</h2>
+<p><code>https://indonesianbeautyblogger.com</code></p>
+<ol>
+<li><strong>Featured Blogger</strong> muncul jika member di settingan
+<code>Global &gt; Website &gt; Featured Blogger</code> terpilih. Link <em>See Profile</em> menuju ke
+halaman <a href="#member-single">Profil Member</a></li>
+<li><strong>Featured Sponsors</strong>, logo akan muncul jika ada gambar dipilih di settingan
+<code>Global &gt; Website &gt; Featured Sponsors</code></li>
+<li><strong>Link Social Media</strong>, ini akan muncul di setiap halaman. Diatur di settingan
+<code>Global &gt; Website</code></li>
+</ol>
+<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+<div class="pv4"></div>
+<h2 id="blogger-feed">Blogger Feed</h2>
+<p><code>https://indonesianbeautyblogger.com/feed</code></p>
+<p>Berisi 51 artikel kombinasi dari RSS Feed blogger-blogger terpilih menggunakan
+service <a href="https://feedly.com">Feedly</a>.</p>
+<ol>
+<li><strong>Blogger Feed</strong> Masukkan kode <code>Stream</code> dari feedly di settingan
+<code>Global &gt; Website &gt; Feed Stream ID</code></li>
+<li><strong>Link Social Media</strong>, lihat <a href="#homepage">Homepage</a></li>
+</ol>
+<p><img src="../assets/images/feed.jpg" alt="Interface Frontend"></p>
+<div class="pv4"></div>
+<h2 id="member-page">Member Page</h2>
+<p><code>https://indonesianbeautyblogger.com/member</code></p>
+<p>Halaman ini akan melist semua member. Member dapat <strong>difilter</strong> based on
+location dan <strong>nama</strong>.</p>
+<ol>
+<li><strong>Nama dan Lokasi</strong> dikontrol dari user sendiri. User wajib mengisi nama lengkap
+di halaman registrasi</li>
+<li><strong>Link Social Media</strong>, lihat <a href="#homepage">Homepage</a></li>
+</ol>
+<p><img src="../assets/images/member.jpg" alt="Interface Frontend"></p>
+<div class="pv4"></div>
+<h2 id="blog-list-page">Blog List Page</h2>
+<p><code>https://indonesianbeautyblogger.com/blog</code> = Halaman 1
+<code>https://indonesianbeautyblogger.com/blog?page=2</code> = Halaman 2, dst</p>
+<p>Halaman ini berisi semua postingan blog/news dan review. Maksimal adalah 15
+halaman, dan nanti akan muncul tombol next ketika data melebihi 15.</p>
+<ol>
+<li><strong>List Kategori</strong> akan bertambah secara otomatis jika terdapat sebuah
+postingan dalam kategori tersebut.</li>
+<li><strong>Review Post</strong>, postingan khusus review di mana terdapat rating produk di
+bawah (max 5).</li>
+<li><strong>Postingan tanpa Featured Image</strong>, label berwarna merah adalah kategori post
+tersebut. Maksimal 1 kategori per post.</li>
+<li><strong>Postingan dengan Featured Image</strong></li>
+</ol>
+<p><img src="../assets/images/blog-list.jpg" alt="Interface Frontend"></p>
+<div class="pv4"></div>
+<h2 id="resource-page">Resource Page</h2>
+<ol>
+<li>Featured Blogger</li>
+<li>Sponsored Area</li>
+<li>Link Social Media</li>
+</ol>
+<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+<div class="pv4"></div>
+<h2 id="static-page">Static Page</h2>
+<ol>
+<li>Featured Blogger</li>
+<li>Sponsored Area</li>
+<li>Link Social Media</li>
+</ol>
+<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+<div class="pv4"></div>
+<h2 id="login">Login</h2>
+<ol>
+<li>Featured Blogger</li>
+<li>Sponsored Area</li>
+<li>Link Social Media</li>
+</ol>
+<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+<div class="pv4"></div>
+<h2 id="register">Register</h2>
+<ol>
+<li>Featured Blogger</li>
+<li>Sponsored Area</li>
+<li>Link Social Media</li>
+</ol>
+<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+<div class="pv4"></div>
+<h2 id="lupa-password">Lupa Password</h2>
+<ol>
+<li>Featured Blogger</li>
+<li>Sponsored Area</li>
+<li>Link Social Media</li>
+</ol>
+<p><img src="../assets/images/homepage.jpg" alt="Interface Frontend"></p>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="../index.html"><span class="title">IBB Guide</span></a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
