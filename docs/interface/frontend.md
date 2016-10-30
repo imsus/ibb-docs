@@ -14,10 +14,9 @@ yang bisa dikontrol di bagian Admin.
 halaman [Profil Member](#member-single)
 2. **Featured Sponsors**, logo akan muncul jika ada gambar dipilih di settingan
 `Global > Website > Featured Sponsors`
-3. **Link Social Media**, ini akan muncul di setiap halaman. Diatur di settingan
-`Global > Website`
+3. **Link Social Media**, ini akan muncul di setiap halaman. Diatur di settingan `Global > Website`
 
-![Interface Frontend](../assets/images/homepage.jpg)
+![Interface Homepage](../assets/images/homepage.jpg)
 
 <div class="pv4"></div>
 
@@ -32,7 +31,7 @@ service [Feedly](https://feedly.com).
 `Global > Website > Feed Stream ID`
 2. **Link Social Media**, lihat [Homepage](#homepage)
 
-![Interface Frontend](../assets/images/feed.jpg)
+![Interface Feed](../assets/images/feed.jpg)
 
 <div class="pv4"></div>
 
@@ -43,11 +42,23 @@ service [Feedly](https://feedly.com).
 Halaman ini akan melist semua member. Member dapat **difilter** based on
 location dan **nama**.
 
-1. **Nama dan Lokasi** dikontrol dari user sendiri. User wajib mengisi nama lengkap
-di halaman registrasi
+1. **Nama dan Lokasi** dikontrol dari user sendiri. User wajib mengisi nama lengkap di halaman registrasi
 2. **Link Social Media**, lihat [Homepage](#homepage)
 
-![Interface Frontend](../assets/images/member.jpg)
+![Interface Member](../assets/images/member.jpg)
+
+<div class="pv4"></div>
+
+## Member Single Page
+
+`https://indonesianbeautyblogger.com/member/{id}`
+
+Halaman ini merupakan detail dari user yang datanya berasal dari halaman update profile.
+
+1. **User Data** Data berasal dari halaman update profil.
+2. **Blog Feed** Masukkan link blog feed seperti `https://{anything}.blogspot.co.id/rss.xml`
+
+![Interface Member Single](../assets/images/member-single.jpg)
 
 <div class="pv4"></div>
 
@@ -63,58 +74,100 @@ halaman, dan nanti akan muncul tombol next ketika data melebihi 15.
 postingan dalam kategori tersebut.
 2. **Review Post**, postingan khusus review di mana terdapat rating produk di
 bawah (max 5).
-3. **Postingan tanpa Featured Image**, label berwarna merah adalah kategori post
-tersebut. Maksimal 1 kategori per post.
+3. **Postingan tanpa Featured Image**, label berwarna merah adalah kategori post tersebut. Maksimal 1 kategori per post.
 4. **Postingan dengan Featured Image**
+5. **Link Social Media**, lihat [Homepage](#homepage)
 
-![Interface Frontend](../assets/images/blog-list.jpg)
+![Interface Blog List](../assets/images/blog-list.jpg)
 
 <div class="pv4"></div>
 
-## Resource Page
+## Blog Single Page
 
-1. Featured Blogger
-2. Sponsored Area
-3. Link Social Media
+`https://indonesianbeautyblogger.com/blog/{slug}`
 
-![Interface Frontend](../assets/images/homepage.jpg)
+Halaman artikel yang akan dibaca oleh pengunjung website.
+
+1. **Meta Data**, diambil dari data **Featured Image**, **Kategori**, dan **Author**
+2. **Judul & Publish Date**, diambil dari **Title** dan **Publish Date**.
+3. **Konten**
+4. **Komentar Disqus**. Settingan disqus diambil dari `Global > Website > Disqus ID`
+5. **Slot Ads**, *Coming Soon*
+6. **Link Social Media**, lihat [Homepage](#homepage)
+
+![Interface Blog Single](../assets/images/blog-single.jpg)
+
+<div class="pv4"></div>
+
+## Review Single Page
+
+`https://indonesianbeautyblogger.com/review/{slug}`
+
+Halaman review ada tambahan review produk di bagian bawah
+
+1. **Meta Data**, diambil dari data **Featured Image**, **Kategori**, dan **Author**
+2. **Judul & Publish Date**, diambil dari **Title** dan **Publish Date**.
+3. **Konten**
+4. **Produk Review**. Data diambil dari **Product Image**, **Product Name**, **Rating**, dan **Conclusion**
+5. **Slot Ads**, *Coming Soon*
+6. **Link Social Media**, lihat [Homepage](#homepage)
+
+![Interface Review Single](../assets/images/review-single.jpg)
+
+<div class="pv4"></div>
+
+## Resource List Page
+
+`https://indonesianbeautyblogger.com/resource`
+
+1. **Series**, akan muncul jika **series telah dibuat** dan **terdapat paling sedikit 1 resource dalam series tersebut**
+2. **Link Social Media**, lihat [Homepage](#homepage)
+
+![Interface Resource List](../assets/images/resource-list.jpg)
+
+<div class="pv4"></div>
+
+## Series Page
+
+`https://indonesianbeautyblogger.com/resource/{series}`
+
+1. **Resource**. Diambil dari collection resource. Data yang dibutuhkan adalah **Featured Image** dan **Link**. Selalu open in new tab.
+2. **Link Social Media**, lihat [Homepage](#homepage)
+
+![Interface Resource List](../assets/images/series-list.jpg)
 
 <div class="pv4"></div>
 
 ## Static Page
 
-1. Featured Blogger
-2. Sponsored Area
-3. Link Social Media
+`https://indonesianbeautyblogger.com/about`
+`https://indonesianbeautyblogger.com/privacy`
+`https://indonesianbeautyblogger.com/terms`
 
-![Interface Frontend](../assets/images/homepage.jpg)
+1. **Konten**
+
+![Interface Static](../assets/images/static-page.jpg)
 
 <div class="pv4"></div>
 
 ## Login
 
-1. Featured Blogger
-2. Sponsored Area
-3. Link Social Media
+`https://indonesianbeautyblogger.com/login`
 
-![Interface Frontend](../assets/images/homepage.jpg)
+![Interface Login](../assets/images/login.jpg)
 
 <div class="pv4"></div>
 
 ## Register
 
-1. Featured Blogger
-2. Sponsored Area
-3. Link Social Media
+`https://indonesianbeautyblogger.com/register`
 
-![Interface Frontend](../assets/images/homepage.jpg)
+![Interface Register](../assets/images/register.jpg)
 
 <div class="pv4"></div>
 
 ## Lupa Password
 
-1. Featured Blogger
-2. Sponsored Area
-3. Link Social Media
+`https://indonesianbeautyblogger.com/forget-password`
 
-![Interface Frontend](../assets/images/homepage.jpg)
+![Interface Forget](../assets/images/forget.jpg)

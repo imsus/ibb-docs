@@ -1,28 +1,14 @@
 * [IBB Guide](../README.md)
 * Tour Interface
   * [Frontend](interface/frontend.md)
-  * Admin
-  * Email
+  * [Admin](interface/admin.md)
 * Fitur Website
-  * Pendaftaran Member
-  * Profil Member
+  * Membership
   * Blog/News
   * Review
-  * Guide Links
+  * Resource
   * Featured Blogger
   * Sponsor Logo
   * Blogger Feed
   * Halaman Statis
-* Content
-  * Blog/News
-  * Guide/Resource
-  * Review
-* Taxonomy
-  * Kategori
-  * Series
-* Members
-  * Registrasi
-  * Login
-  * Lupa Password
-  * Edit Profil
 * Guide v1.0.0
